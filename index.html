@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Flexbox</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><h2>LOGO</h2></li>
+					<li><a href="google.com">Discover</a></li>
+					<li><input type="text" placeholder="Search" /></li>
+					<li>Dropdown</li>
+					<li>
+						<div class="bellicon">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="h-5 w-5"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+							>
+								<path
+									d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z"
+								/>
+							</svg>
+						</div>
+					</li>
+					<li>
+						<img
+							class="profilepic"
+							src="images/profile1.jpeg"
+							alt="profile picture"
+						/>
+						<img
+							class="profilepic card-overlay"
+							src="images/profile2.jpeg"
+							alt="profile picture"
+						/>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="layout">
+				<div class="card">
+					<div class="card-images">
+						<div class="card-imagelarge">
+							<img src="images/cat.webp" alt="gallery image" />
+						</div>
+						<div class="card-imagegroup">
+							<div class="card-imagesmall">
+								<img src="images/cat1.jpeg" alt="gallery image" />
+							</div>
+							<div class="card-imagesmall">
+								<img src="images/cat2.jpeg" alt="gallery image" />
+							</div>
+							<div class="card-imagesmall card-overlay">
+								<img src="images/cat3.jpeg" alt="gallery image" />
+								<div class="card-number">
+									<h1>48+</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-textarea">
+						<div class="card-profilepic">
+							<img src="images/cat4.png" alt="profile picture" />
+						</div>
+						<div class="card-text">
+							<h4>Cats4Life</h4>
+							<br />
+							<i>Gallery</i>
+						</div>
+						<div class="card-arrow">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="h-5 w-5"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-images">
+						<div class="card-imagelarge">
+							<img src="images/texture.webp" alt="gallery image" />
+						</div>
+						<div class="card-imagegroup">
+							<div class="card-imagesmall">
+								<img src="images/texture1.jpeg" alt="gallery image" />
+							</div>
+							<div class="card-imagesmall">
+								<img src="images/texture2.jpeg" alt="gallery image" />
+							</div>
+							<div class="card-imagesmall card-overlay">
+								<img src="images/texture3.jpeg" alt="gallery image" />
+								<div class="card-number">
+									<h1>27+</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-textarea">
+						<div class="card-profilepic">
+							<img src="images/texture-profile.jpeg" alt="profile picture" />
+						</div>
+						<div class="card-text">
+							<h4>DesignTextures</h4>
+							<br />
+							<i>Gallery</i>
+						</div>
+						<div class="card-arrow">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="h-5 w-5"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-images">
+						<div class="card-imagelarge">
+							<img src="images/nature.jpeg" alt="gallery image" />
+						</div>
+						<div class="card-imagegroup">
+							<div class="card-imagesmall">
+								<img src="images/nature1.jpeg" alt="gallery image" />
+							</div>
+							<div class="card-imagesmall">
+								<img src="images/nature3.jpeg" alt="gallery image" />
+							</div>
+							<div class="card-imagesmall card-overlay">
+								<img src="images/nature2.jpeg" alt="gallery image" />
+								<div class="card-number">
+									<h1>13+</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-textarea">
+						<div class="card-profilepic">
+							<img src="images/nature4.jpeg" alt="profile picture" />
+						</div>
+						<div class="card-text">
+							<h4>NtrLvr</h4>
+							<br />
+							<i>Gallery</i>
+						</div>
+						<div class="card-arrow">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="h-5 w-5"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-images">
+						<div class="card-imagelarge">
+							<img src="images/cat.webp" alt="gallery image" />
+						</div>
+						<div class="card-imagegroup">
+							<div class="card-imagesmall">
+								<img src="images/cat1.jpeg" alt="gallery image" />
+							</div>
+							<div class="card-imagesmall">
+								<img src="images/cat2.jpeg" alt="gallery image" />
+							</div>
+							<div class="card-imagesmall">
+								<img src="images/cat3.jpeg" alt="gallery image" />
+							</div>
+						</div>
+					</div>
+					<div class="card-textarea">
+						<div class="card-profilepic">
+							<img src="images/cat4.png" alt="profile picture" />
+						</div>
+						<div class="card-text">
+							<h4>Cats4Life</h4>
+							<br />
+							<i>Gallery</i>
+						</div>
+						<div class="card-arrow">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="h-5 w-5"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-images">
+						<div class="card-imagelarge">
+							<img src="images/cat.webp" alt="gallery image" />
+						</div>
+						<div class="card-imagegroup">
+							<div class="card-imagesmall">
+								<img src="images/cat1.jpeg" alt="gallery image" />
+							</div>
+							<div class="card-imagesmall">
+								<img src="images/cat2.jpeg" alt="gallery image" />
+							</div>
+							<div class="card-imagesmall">
+								<img src="images/cat3.jpeg" alt="gallery image" />
+							</div>
+						</div>
+					</div>
+					<div class="card-textarea">
+						<div class="card-profilepic">
+							<img src="images/cat4.png" alt="profile picture" />
+						</div>
+						<div class="card-text">
+							<h4>Cats4Life</h4>
+							<br />
+							<i>Gallery</i>
+						</div>
+						<div class="card-arrow">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="h-5 w-5"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-images">
+						<div class="card-imagelarge">
+							<img src="images/cat.webp" alt="gallery image" />
+						</div>
+						<div class="card-imagegroup">
+							<div class="card-imagesmall">
+								<img src="images/cat1.jpeg" alt="gallery image" />
+							</div>
+							<div class="card-imagesmall">
+								<img src="images/cat2.jpeg" alt="gallery image" />
+							</div>
+							<div class="card-imagesmall">
+								<img src="images/cat3.jpeg" alt="gallery image" />
+							</div>
+						</div>
+					</div>
+					<div class="card-textarea">
+						<div class="card-profilepic">
+							<img src="images/cat4.png" alt="profile picture" />
+						</div>
+						<div class="card-text">
+							<h4>Cats4Life</h4>
+							<br />
+							<i>Gallery</i>
+						</div>
+						<div class="card-arrow">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="h-5 w-5"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-images">
+						<div class="card-imagelarge">
+							<img src="images/cat.webp" alt="gallery image" />
+						</div>
+						<div class="card-imagegroup">
+							<div class="card-imagesmall">
+								<img src="images/cat1.jpeg" alt="gallery image" />
+							</div>
+							<div class="card-imagesmall">
+								<img src="images/cat2.jpeg" alt="gallery image" />
+							</div>
+							<div class="card-imagesmall">
+								<img src="images/cat3.jpeg" alt="gallery image" />
+							</div>
+						</div>
+					</div>
+					<div class="card-textarea">
+						<div class="card-profilepic">
+							<img src="images/cat4.png" alt="profile picture" />
+						</div>
+						<div class="card-text">
+							<h4>Cats4Life</h4>
+							<br />
+							<i>Gallery</i>
+						</div>
+						<div class="card-arrow">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="h-5 w-5"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-images">
+						<div class="card-imagelarge">
+							<img src="images/cat.webp" alt="gallery image" />
+						</div>
+						<div class="card-imagegroup">
+							<div class="card-imagesmall">
+								<img src="images/cat1.jpeg" alt="gallery image" />
+							</div>
+							<div class="card-imagesmall">
+								<img src="images/cat2.jpeg" alt="gallery image" />
+							</div>
+							<div class="card-imagesmall">
+								<img src="images/cat3.jpeg" alt="gallery image" />
+							</div>
+						</div>
+					</div>
+					<div class="card-textarea">
+						<div class="card-profilepic">
+							<img src="images/cat4.png" alt="profile picture" />
+						</div>
+						<div class="card-text">
+							<h4>Cats4Life</h4>
+							<br />
+							<i>Gallery</i>
+						</div>
+						<div class="card-arrow">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="h-5 w-5"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-images">
+						<div class="card-imagelarge">
+							<img src="images/cat.webp" alt="gallery image" />
+						</div>
+						<div class="card-imagegroup">
+							<div class="card-imagesmall">
+								<img src="images/cat1.jpeg" alt="gallery image" />
+							</div>
+							<div class="card-imagesmall">
+								<img src="images/cat2.jpeg" alt="gallery image" />
+							</div>
+							<div class="card-imagesmall">
+								<img src="images/cat3.jpeg" alt="gallery image" />
+							</div>
+						</div>
+					</div>
+					<div class="card-textarea">
+						<div class="card-profilepic">
+							<img src="images/cat4.png" alt="profile picture" />
+						</div>
+						<div class="card-text">
+							<h4>Cats4Life</h4>
+							<i>Gallery</i>
+						</div>
+						<div class="card-arrow">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="h-5 w-5"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
