@@ -161,9 +161,8 @@ input[type="text"] {
 	border-bottom: solid 1px currentColor;
 }
 
-.nft-offer > img {
-	height: 280px;
-	width: 280px;
+.nft-offer {
+	width: 100%;
 	margin: 20px 0 0 0;
 	border-radius: 5px;
 }
@@ -236,6 +235,28 @@ button {
 	width: 20px;
 	opacity: 40%;
 	margin: 10px;
+}
+
+.nftcard2 {
+	display: flex;
+	width: 300px;
+	height: 500px;
+	padding: 20px 20px 20px 20px;
+	background-color: red;
+	border-radius: 5px;
+	font-size: medium;
+	flex-direction: column;
+}
+
+.nftcard3 {
+	display: flex;
+	width: 300px;
+	height: 500px;
+	padding: 20px 20px 20px 20px;
+	background-color: yellow;
+	border-radius: 5px;
+	font-size: medium;
+	flex-direction: column;
 }
 
 /* Cards */
