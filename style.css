@@ -36,8 +36,7 @@ nav {
 
 nav ul {
 	margin: 0 50px;
-	max-width: 1200px;
-	min-width: 800px;
+	width: 80%;
 	display: flex;
 	justify-content: space-around;
 	flex-direction: row;
@@ -45,19 +44,122 @@ nav ul {
 	list-style: none;
 }
 
+#logo {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+nav img {
+	width: auto;
+	height: 30px;
+}
+
+/* Search icon */
+#search button svg {
+	height: 20px;
+	width: auto;
+	background-color: #f0f0f0;
+	padding: 10px 0 10px 10px;
+	border-radius: 50px 0 0 50px;
+	border: none;
+	outline: none;
+	color: #2c2c2c;
+}
+
 nav a {
 	text-decoration: none;
 	color: black;
 	font-weight: 200;
+	padding-right: 20px;
 }
 
 input[type="text"] {
 	background-color: #f0f0f0;
 	border: none;
-	border-radius: 50px;
+	border-radius: 0 50px 50px 0;
 	padding: 10px;
-	width: 250px;
+	width: 300px;
 }
+
+/* DROPDOWN EXTRAVAGANZA */
+
+.svg-font svg {
+	height: 15px;
+	width: auto;
+}
+
+.dropdown {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.dropdown a {
+	font-weight: 100;
+}
+
+.dropdown svg {
+	height: 30px;
+	width: auto;
+	color: #2c2c2c;
+	vertical-align: middle;
+}
+
+.dropdown img {
+	vertical-align: bottom;
+	padding: 10px 16px 0 16px;
+}
+
+/* .dropdown svg:hover {
+	color: white;
+} */
+
+.dropbtn {
+	background-color: #fff;
+	color: #2c2c2c;
+	padding: 0 23px;
+	font-size: 16px;
+	border: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* .dropdown a:hover {
+	color: #fff;
+} */
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	min-width: 160px;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: #2c2c2c;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* .dropdown-content a:hover {
+	background-color: #2c2c2c;
+	color: #fff;
+} */
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+/* 
+.dropdown:hover .dropbtn {
+	background-color: #2c2c2c;
+} */
+
+/* DROPDOWN END */
 
 .bellicon {
 	height: 20px;
@@ -261,7 +363,11 @@ input[type="email"] {
 	float: left;
 }
 
-button {
+input:focus {
+	outline: none;
+}
+
+.footer-top-right button {
 	background-color: #2c2c2c;
 	color: #fff;
 	padding: 10px;
@@ -269,7 +375,7 @@ button {
 	float: left;
 }
 
-button:hover {
+.footer-top-right button:hover {
 	background-color: #fff;
 	color: #2c2c2c;
 }

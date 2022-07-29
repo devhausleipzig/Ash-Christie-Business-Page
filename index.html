@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Flexbox</title>
+		<title>AceNFT</title>
 		<link rel="stylesheet" href="style.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,12 +17,107 @@
 		<header>
 			<nav>
 				<ul>
-					<li><h2>LOGO</h2></li>
-					<li>
-						<a href="https://www.google.com/" target="_blank">Discover</a>
+					<li id="logo">
+						<img src="images/logo.png" alt="" />
+						<h3>Ace<strong>NFT</strong></h3>
 					</li>
-					<li><input type="text" placeholder="Search" /></li>
-					<li>Dropdown</li>
+					<li id="search">
+						<a href="https://www.google.com/" target="_blank">Discover</a>
+						<button>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="icon icon-tabler icon-tabler-search"
+								width="44"
+								height="44"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								fill="none"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+								<circle cx="10" cy="10" r="7" />
+								<line x1="21" y1="21" x2="15" y2="15" />
+							</svg>
+						</button>
+						<input type="text" placeholder="Search" />
+					</li>
+					<li>
+						<div class="dropdown">
+							<button class="dropbtn">
+								<a href="https://en.wikipedia.org/wiki/Ethereum" target="_blank"
+									><svg
+										xmlns="http://www.w3.org/2000/svg"
+										class="icon icon-tabler icon-tabler-currency-ethereum"
+										width="44"
+										height="44"
+										viewBox="0 0 24 24"
+										stroke-width="1.5"
+										stroke="currentColor"
+										fill="none"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+										<path d="M6 12l6 -9l6 9l-6 9z" />
+										<path d="M6 12l6 -3l6 3l-6 2z" />
+									</svg>
+									ETH
+									<img
+										src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Ic_arrow_drop_down_36px.svg/1024px-Ic_arrow_drop_down_36px.svg.png"
+										alt=""
+									/>
+								</a>
+							</button>
+							<div class="dropdown-content">
+								<a href="https://en.wikipedia.org/wiki/Bitcoin" target="_blank"
+									><svg
+										xmlns="http://www.w3.org/2000/svg"
+										class="icon icon-tabler icon-tabler-currency-bitcoin"
+										width="44"
+										height="44"
+										viewBox="0 0 24 24"
+										stroke-width="1.5"
+										stroke="currentColor"
+										fill="none"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+										<path d="M6 6h8a3 3 0 0 1 0 6a3 3 0 0 1 0 6h-8" />
+										<line x1="8" y1="6" x2="8" y2="18" />
+										<line x1="8" y1="12" x2="14" y2="12" />
+										<line x1="9" y1="3" x2="9" y2="6" />
+										<line x1="13" y1="3" x2="13" y2="6" />
+										<line x1="9" y1="18" x2="9" y2="21" />
+										<line x1="13" y1="18" x2="13" y2="21" />
+									</svg>
+									BTC</a
+								>
+								<a href="https://en.wikipedia.org/wiki/Dogecoin" target="_blank"
+									><svg
+										xmlns="http://www.w3.org/2000/svg"
+										class="icon icon-tabler icon-tabler-currency-dogecoin"
+										width="44"
+										height="44"
+										viewBox="0 0 24 24"
+										stroke-width="1.5"
+										stroke="currentColor"
+										fill="none"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+										<path d="M6 12h6" />
+										<path d="M9 6v12" />
+										<path d="M6 18h6a6 6 0 1 0 0 -12h-6" />
+									</svg>
+									DOGE</a
+								>
+							</div>
+						</div>
+					</li>
 					<li>
 						<div class="bellicon">
 							<svg
