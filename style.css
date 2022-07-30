@@ -67,19 +67,37 @@ input[type="text"] {
 
 .EditorsPickHeadline {
 	display: flex;
-	height: 150px;
+	height: 200px;
 	width: 100%;
 	background-color: pink;
 	justify-content: space-between;
-	padding-top: 20px;
-	padding-left: 20px;
-	align-items: flex-start;
+	align-items: center;
 	font-weight: 100;
-	font-size: xx-large;
+	font-size: x-large;
 }
 
-.EditorsPickBackground {
-	width: 100%;
+.EditorsPickHeadline div {
+	margin-left: 190px;
+}
+
+.view-all {
+	background-color: deeppink;
+	display: flex;
+	align-items: center;
+	font-weight: 100;
+	font-size: medium;
+	padding-right: 190px;
+}
+
+.fa-solid .fa-arrow-right {
+	padding-left: 10px;
+}
+
+.arrow-circle {
+	background-color: darkgrey;
+	height: 40px;
+	width: 40px;
+	border-radius: 50px;
 }
 
 .nftcardgallery {
