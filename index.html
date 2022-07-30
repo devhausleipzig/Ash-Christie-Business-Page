@@ -21,27 +21,31 @@
 						<img src="images/logo.png" alt="" />
 						<h3>Ace<strong>NFT</strong></h3>
 					</li>
-					<li id="search">
+					<li class="search">
 						<a href="https://www.google.com/" target="_blank">Discover</a>
-						<button>
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								class="icon icon-tabler icon-tabler-search"
-								width="44"
-								height="44"
-								viewBox="0 0 24 24"
-								stroke-width="1.5"
-								stroke="currentColor"
-								fill="none"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-							>
-								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-								<circle cx="10" cy="10" r="7" />
-								<line x1="21" y1="21" x2="15" y2="15" />
-							</svg>
-						</button>
-						<input type="text" placeholder="Search" />
+
+						<!-- I could not get a submit type button to work without having a reactive box around it. I tried multiple versions and could not find a reason why it was styled like that in CSS. I changed to a div just to get the task "done" but will try and work out a solution if I have time.-->
+						<div class="searchbar">
+							<div class="button">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-search"
+									width="44"
+									height="44"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									fill="none"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+									<circle cx="10" cy="10" r="7" />
+									<line x1="21" y1="21" x2="15" y2="15" />
+								</svg>
+							</div>
+							<input type="text" placeholder="Search" />
+						</div>
 					</li>
 					<li>
 						<div class="dropdown">
@@ -118,6 +122,7 @@
 							</div>
 						</div>
 					</li>
+					<li><div class="navdivider"></div></li>
 					<li>
 						<div class="bellicon">
 							<svg
@@ -139,9 +144,9 @@
 							alt="profile picture"
 						/>
 						<img
-							class="profilepic card-overlay"
-							src="images/profile2.jpeg"
-							alt="profile picture"
+							class="profilepic"
+							src="images/whiteplus.png"
+							alt="additional profiles"
 						/>
 					</li>
 				</ul>
@@ -331,9 +336,10 @@
 									<a href="https://www.google.com/" target="_blank">Privacy</a>
 								</li>
 								<li>
-									<a href="https://www.google.com/" target="_blank"
-										>Terms of Service</a
-									>
+									<!--I can't figure out why the whole row of links is activated on hover.-->
+									<a href="https://www.google.com/" target="_blank">
+										Terms of Service
+									</a>
 								</li>
 							</ul>
 						</div>
