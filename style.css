@@ -215,32 +215,48 @@ nav a {
 	display: flex;
 	height: 200px;
 	width: 100%;
-	background-color: pink;
-	justify-content: space-between;
+	background-color: #d3d3d3;
 	align-items: center;
 	font-weight: 100;
 	font-size: x-large;
 }
 
-.EditorsPickHeadline div {
-	margin-left: 190px;
+.EditorsPickHeadline img {
+	position: absolute;
+	height: 40px;
+	width: 50px;
+	margin-left: 180px;
+}
+
+.headline-e {
+	position: absolute;
+	left: 240px;
+	font-weight: 100;
+	font-size: xx-large;
 }
 
 .view-all {
-	background-color: deeppink;
 	display: flex;
+	position: absolute;
+	right: 190px;
 	align-items: center;
-	font-weight: 100;
-	font-size: medium;
-	padding-right: 190px;
 }
 
-.fa-arrow-right {
-	padding-left: 250px;
+.va-text {
+	position: absolute;
+	right: 55px;
+	font-size: medium;
+	white-space: nowrap;
+}
+
+.fa-arrow-right-long {
+	position: absolute;
+	right: 25px;
+	font-weight: 100;
 }
 
 .arrow-circle {
-	background-color: darkgrey;
+	background-color: #c4c4c4;
 	height: 40px;
 	width: 40px;
 	border-radius: 50px;
@@ -261,7 +277,7 @@ nav a {
 	width: 300px;
 	height: 500px;
 	padding: 20px 20px 20px 20px;
-	background-color: green;
+	background-color: #ffffff;
 	border-radius: 5px;
 	font-size: medium;
 	flex-direction: column;
@@ -275,8 +291,8 @@ nav a {
 .profilepic {
 	height: 30px;
 	width: 30px;
-	background-color: orange;
-	border: 2px double white;
+	background-color: #ffffff;
+	border: 2px double black;
 	font-size: 18px;
 }
 
@@ -334,13 +350,13 @@ nav a {
 .nft-title {
 	font-weight: bold;
 	font-size: 20px;
-	padding: 5px 10px 0 0;
+	padding: 10px 10px 0 0;
 }
 
 .nft-interaction {
 	display: flex;
 	justify-content: space-between;
-	padding: 5px 19px 0 0;
+	padding: 5px 2px 0 0;
 	margin: 0 0 10px 0;
 }
 
@@ -350,19 +366,18 @@ button {
 	border-top-right-radius: 5px;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
-	padding: 3px 15px 5px 15px;
+	padding: 5px 15px 5px 15px;
 	border: none;
 }
 
 .divider-line {
-	width: 95%;
-	height: 3px;
-	background-color: chocolate;
+	width: 98%;
+	height: 1px;
+	background-color: #d3d3d3;
 }
 
 .auction-status {
 	display: flex;
-	background-color: darkslateblue;
 	align-items: center;
 	justify-content: space-between;
 	margin-top: 20px;
@@ -372,7 +387,6 @@ button {
 .bidding-state {
 	display: flex;
 	align-items: center;
-	background-color: aqua;
 	gap: 10%;
 }
 
@@ -382,19 +396,16 @@ button {
 }
 
 .price {
-	background-color: pink;
 	width: 150px;
 }
 
 .bid-status {
 	display: flex;
 	align-items: center;
-	background-color: bisque;
 	padding: 0 15px 0 0;
 }
 
 .bid-status img {
-	background-color: crimson;
 	height: 20px;
 	width: 20px;
 	opacity: 40%;
@@ -406,7 +417,7 @@ button {
 	width: 300px;
 	height: 500px;
 	padding: 20px 20px 20px 20px;
-	background-color: red;
+	background-color: #ffffff;
 	border-radius: 5px;
 	font-size: medium;
 	flex-direction: column;
@@ -417,7 +428,7 @@ button {
 	width: 300px;
 	height: 500px;
 	padding: 20px 20px 20px 20px;
-	background-color: yellow;
+	background-color: #ffffff;
 	border-radius: 5px;
 	font-size: medium;
 	flex-direction: column;
