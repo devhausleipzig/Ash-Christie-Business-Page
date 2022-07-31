@@ -210,7 +210,7 @@ nav a {
 #editors-pick {
 	width: 100vw;
 }
-
+/* copy Headline */
 .EditorsPickHeadline {
 	display: flex;
 	height: 200px;
@@ -226,6 +226,10 @@ nav a {
 	height: 40px;
 	width: 50px;
 	margin-left: 180px;
+}
+
+.EditorsPickBackground {
+	background-color: #f3f3f3;
 }
 
 .headline-e {
