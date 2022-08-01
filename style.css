@@ -290,6 +290,7 @@ nav a {
 .userinfo {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .profilepic {
@@ -301,7 +302,8 @@ nav a {
 }
 
 .profilename {
-	padding-left: 10px;
+	position: absolute;
+	padding-left: 45px;
 	font-size: 14px;
 }
 
