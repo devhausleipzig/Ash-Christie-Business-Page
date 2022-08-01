@@ -210,7 +210,7 @@ nav a {
 #editors-pick {
 	width: 100vw;
 }
-/* copy Headline */
+
 .EditorsPickHeadline {
 	display: flex;
 	height: 200px;
@@ -379,18 +379,13 @@ button {
 	border: none;
 }
 
-.divider-line {
-	width: 98%;
-	height: 1px;
-	background-color: #d3d3d3;
-}
-
 .auction-status {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-top: 17px;
 	font-weight: 100;
+	border-top: 1px solid #d3d3d3;
+	padding-top: 10px;
 }
 
 .bidding-state {
@@ -445,10 +440,10 @@ button {
 
 .auction-status-highest {
 	display: flex;
-	/* align-items: center; */
 	justify-content: space-around;
-	margin-top: 17px;
 	font-weight: 100;
+	border-top: 1px solid #d3d3d3;
+	padding-top: 10px;
 }
 .dark-circle {
 	position: relative;
@@ -492,6 +487,43 @@ p.timer {
 	right: 280px;
 	padding-top: 28px;
 	font-weight: bolder;
+}
+
+/* Featured Gallery Section */
+
+#featured-galleries {
+	width: 100vw;
+}
+
+.featured-galleries-headline {
+	display: absolute;
+	height: 200px;
+	width: 100%;
+	background-color: white;
+}
+
+#sparkle1 {
+	position: absolute;
+	height: 40px;
+	width: 50px;
+	left: 530px;
+	top: 940px;
+}
+
+#sparkle2 {
+	position: absolute;
+	height: 30px;
+	width: 40px;
+	right: 560px;
+	top: 890px;
+}
+
+.f-headline {
+	position: relative;
+	text-align: center;
+	font-weight: 100;
+	font-size: xx-large;
+	top: 70px;
 }
 
 /* Cards */
