@@ -347,8 +347,10 @@ nav a {
 
 .nft-offer {
 	width: 100%;
+	height: 327px;
 	margin: 20px 0 0 0;
 	border-radius: 5px;
+	object-fit: cover;
 }
 
 .nft-title {
@@ -385,7 +387,7 @@ button {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-top: 20px;
+	margin-top: 17px;
 	font-weight: 100;
 }
 
@@ -443,7 +445,7 @@ button {
 	display: flex;
 	/* align-items: center; */
 	justify-content: space-around;
-	margin-top: 20px;
+	margin-top: 17px;
 	font-weight: 100;
 }
 .dark-circle {
